@@ -8,16 +8,23 @@ Date: 07.10.2026
 
 Steps, with commands in code blocks. Not prose about the steps.
 
-```
-<command>
-<output, trimmed>
-```
+sudo dmidecode -t bios[cite: 1]
+ls /sys/firmware/efi[cite: 1]
+cat /proc/cpuinfo | grep 'model name' | head -n 1[cite: 2]
+nproc[cite: 2]
+grep 'core id' /proc/cpuinfo | sort -u | wc -l[cite: 2]
+lsblk -o NAME,MODEL,SIZE,TYPE,FSTYPE,MOUNTPOINTS[cite: 3]
+lsblk -d -o NAME,MODEL,ROTA,TRAN,SIZE[cite: 3]
+df -h[cite: 3]
+sudo dmidecode --type 17 | awk '/Size:/ {size=$2} /Speed:/ {speed=$2" "$3; if(size !~ "No") print "Модуль: " size ", Скорость: " speed}'[cite: 4]
+free -h[cite: 4]
+grep -cE 'vmx|svm' /proc/cpuinfo[cite: 5]
 
 ## Result
 
 ## What did not work the first time
 
-At least one thing. What I saw, what it turned out to be, what I did about it.
+All worked correctly
 
 ## Evidence
 
