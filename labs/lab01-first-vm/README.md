@@ -24,7 +24,7 @@ Nothing
 
 ## Evidence
 
-(vm-settings.png) — CPU, memory and disk as configured
+[Evidence](vm-settings.png) — CPU, memory and disk as configured
 evidence/guest-release.txt — Ubuntu Server is running in the guest
 evidence/broken.png — the guest in its broken state
 evidence/snapshot-list.png — the snapshot, after the rollback
