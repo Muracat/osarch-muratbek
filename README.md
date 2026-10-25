@@ -10,9 +10,9 @@
 
 | # | Topic | Folder | Status |
 |---|-------|--------|--------|
-| 0 | Inventory your own machine | [labs/lab00-inventory](labs/lab00-inventory) | |
-| 1 | Your first virtual machine | [labs/lab01-first-vm](labs/lab01-first-vm) | |
-| 2 | A Windows guest, and a network | [labs/lab02-windows-vm](labs/lab02-windows-vm) | |
+| 0 | Inventory your own machine | [labs/lab00-inventory](labs/lab00-inventory) |done |
+| 1 | Your first virtual machine | [labs/lab01-first-vm](labs/lab01-first-vm) |done |
+| 2 | A Windows guest, and a network | [labs/lab02-windows-vm](labs/lab02-windows-vm) |done |
 | 3 | Teardown | [labs/lab03-teardown](labs/lab03-teardown) | |
 | 4 | Partition, mirror, fail, recover | [labs/lab04-storage](labs/lab04-storage) | |
 | 5 | Encoding forensics | [labs/lab05-encoding](labs/lab05-encoding) | |
