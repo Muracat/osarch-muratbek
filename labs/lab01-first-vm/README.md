@@ -1,7 +1,7 @@
 # Lab 1 — Your first virtual machine
 
 Pair: Dinmukhamed and Amira                
-Machine: OMEN by HP Laptop Arch Linux
+Machine: lab01-ubuntu
 Date: 17.10.2026
 
 ## What I did
