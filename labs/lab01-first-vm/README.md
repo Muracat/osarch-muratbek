@@ -28,3 +28,4 @@ we were not able to commit to github the clean-install, had to make a new snapsh
 [Evidence](evidence/guest-release.txt) — Ubuntu Server is running in the guest
 [Evidence](evidence/broken.png) — the guest in its broken state
 [Evidence](evidence/snapshot-list.png) — the snapshot, after the rollback
+[Evidence](evidence/clean-instal.png) — clean instal
