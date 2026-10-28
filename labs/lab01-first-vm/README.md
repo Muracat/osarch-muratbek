@@ -29,3 +29,4 @@ we were not able to commit to github the clean-install, had to make a new snapsh
 - [broken](evidence/broken.png) — the guest in its broken state
 - [snapshot-list](evidence/snapshot-list.png) — the snapshot, after the rollback
 - [clean-instal](evidence/clean-instal.png) — clean instal
+- [restore-proof](evidence/restore-proof.png) — proof that the guest is fully functional after restoration
