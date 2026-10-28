@@ -24,7 +24,7 @@ we were not able to commit to github the clean-install, had to make a new snapsh
 
 ## Evidence
 
-- [Evidence](evidence/vm-settings.png) — CPU, memory and disk as configured
+- [vm-settings](evidence/vm-settings.png) — CPU, memory and disk as configured
 - [Evidence](evidence/guest-release.txt) — Ubuntu Server is running in the guest
 - [Evidence](evidence/broken.png) — the guest in its broken state
 - [Evidence](evidence/snapshot-list.png) — the snapshot, after the rollback
