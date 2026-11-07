@@ -5,6 +5,7 @@ This document is for Aigerim, so she can build the next one herself. Every step 
 ## Step 0 - The host I built this on (and what you need)
 
 | Resource | My host (from the VirtualBox wizard sliders) | Needed for both VMs running at once |
+| --- | --- | --- |
 | RAM | 15 360 MB (≈15 GB) | 2 048 MB (Ubuntu) + 4 096 MB (Windows) = 6 144 MB |
 | CPUs | 16 | 1 (Ubuntu) + 2 (Windows) = 3 |
 | Free disk | heck with `df -h ~` (Linux) or File Explorer (Windows) | 25 GB + 80 GB = 105 GB maximum (disks grow as they fill), plus ≈10 GB for the two ISOs |
