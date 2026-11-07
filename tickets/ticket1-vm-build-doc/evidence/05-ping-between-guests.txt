@@ -1,25 +1,32 @@
+$ ping -c 4 10.0.2.3
 PING 10.0.2.3 (10.0.2.3) 56(84) bytes of data.
-64 bytes from 10.0.2.3: icmp_seq=1 ttl=128 time=0.348 ms
-64 bytes from 10.0.2.3: icmp_seq=2 ttl=128 time=0.537 ms
-64 bytes from 10.0.2.3: icmp_seq=3 ttl=128 time=0.459 ms
-64 bytes from 10.0.2.3: icmp_seq=4 ttl=128 time=0.457 ms
+64 bytes from 10.0.2.3: icmp_seq=1 ttl=128 time=0.326 ms
+64 bytes from 10.0.2.3: icmp_seq=2 ttl=128 time=0.333 ms
+64 bytes from 10.0.2.3: icmp_seq=3 ttl=128 time=0.350 ms
+64 bytes from 10.0.2.3: icmp_seq=4 ttl=128 time=0.408 ms
 
 --- 10.0.2.3 ping statistics ---
-4 packets transmitted, 4 received, 0% packet loss, time 3193ms
-rtt min/avg/max/mdev = 0.348/0.450/0.537/0.067 ms
+4 packets transmitted, 4 received, 0% packet loss, time 3904ms
+rtt min/avg/max/mdev = 0.326/0.354/0.408/0.032 ms
+$ ping -c 4 ubuntu.com
 PING ubuntu.com (185.125.190.21) 56(84) bytes of data.
-64 bytes from website-content-cache-2.ps5.canonical.com (185.125.190.21): icmp_seq=1 ttl=64 time=96.7 ms
-64 bytes from website-content-cache-2.ps5.canonical.com (185.125.190.21): icmp_seq=2 ttl=64 time=96.3 ms
-64 bytes from website-content-cache-2.ps5.canonical.com (185.125.190.21): icmp_seq=3 ttl=64 time=96.5 ms
-64 bytes from website-content-cache-2.ps5.canonical.com (185.125.190.21): icmp_seq=4 ttl=64 time=96.7 ms
+64 bytes from website-content-cache-2.ps5.canonical.com (185.125.190.21): icmp_seq=1 ttl=64 time=101 ms
+64 bytes from website-content-cache-2.ps5.canonical.com (185.125.190.21): icmp_seq=2 ttl=64 time=106 ms
+64 bytes from website-content-cache-2.ps5.canonical.com (185.125.190.21): icmp_seq=3 ttl=64 time=101 ms
+64 bytes from website-content-cache-2.ps5.canonical.com (185.125.190.21): icmp_seq=4 ttl=64 time=101 ms
 
 --- ubuntu.com ping statistics ---
-4 packets transmitted, 4 received, 0% packet loss, time 3006ms
-rtt min/avg/max/mdev = 96.284/96.518/96.662/0.154 ms
+4 packets transmitted, 4 received, 0% packet loss, time 26532ms
+rtt min/avg/max/mdev = 101.055/102.307/106.018/2.142 ms
 
+
+
+
+
+PS> ping 10.0.2.5
 
 Pinging 10.0.2.5 with 32 bytes of data:
-Reply from 10.0.2.5: bytes=32 time<1ms TTL=64
+Reply from 10.0.2.5: bytes=32 time=473ms TTL=64
 Reply from 10.0.2.5: bytes=32 time<1ms TTL=64
 Reply from 10.0.2.5: bytes=32 time<1ms TTL=64
 Reply from 10.0.2.5: bytes=32 time<1ms TTL=64
@@ -27,16 +34,16 @@ Reply from 10.0.2.5: bytes=32 time<1ms TTL=64
 Ping statistics for 10.0.2.5:
     Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
 Approximate round trip times in milli-seconds:
-    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+    Minimum = 0ms, Maximum = 473ms, Average = 118ms
+PS> ping ubuntu.com
 
+Pinging ubuntu.com [185.125.190.29] with 32 bytes of data:
+Reply from 185.125.190.29: bytes=32 time=98ms TTL=128
+Reply from 185.125.190.29: bytes=32 time=98ms TTL=128
+Reply from 185.125.190.29: bytes=32 time=98ms TTL=128
+Reply from 185.125.190.29: bytes=32 time=97ms TTL=128
 
-Pinging ubuntu.com [185.125.190.21] with 32 bytes of data:
-Reply from 185.125.190.21: bytes=32 time=96ms TTL=128
-Reply from 185.125.190.21: bytes=32 time=96ms TTL=128
-Reply from 185.125.190.21: bytes=32 time=96ms TTL=128
-Reply from 185.125.190.21: bytes=32 time=96ms TTL=128
-
-Ping statistics for 185.125.190.21:
+Ping statistics for 185.125.190.29:
     Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
 Approximate round trip times in milli-seconds:
-    Minimum = 96ms, Maximum = 96ms, Average = 96ms
+    Minimum = 97ms, Maximum = 98ms, Average = 97ms
