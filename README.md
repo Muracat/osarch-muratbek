@@ -13,7 +13,7 @@
 | 0 | Inventory your own machine | [labs/lab00-inventory](labs/lab00-inventory) |done |
 | 1 | Your first virtual machine | [labs/lab01-first-vm](labs/lab01-first-vm) |done |
 | 2 | A Windows guest, and a network | [labs/lab02-windows-vm](labs/lab02-windows-vm) |done |
-| 3 | Teardown | [labs/lab03-teardown](labs/lab03-teardown) | |
+| 3 | Teardown | [labs/lab03-teardown](labs/lab03-teardown) | done |
 | 4 | Partition, mirror, fail, recover | [labs/lab04-storage](labs/lab04-storage) | |
 | 5 | Encoding forensics | [labs/lab05-encoding](labs/lab05-encoding) | |
 | 6 | Live processes and memory pressure | [labs/lab06-processes](labs/lab06-processes) | |
@@ -28,7 +28,7 @@
 
 | # | Title | Folder | Submitted |
 |---|-------|--------|-----------|
-| 1 | VM build document | [tickets/ticket1-vm-build-doc](tickets/ticket1-vm-build-doc) | |
+| 1 | VM build document | [tickets/ticket1-vm-build-doc](tickets/ticket1-vm-build-doc) | done |
 | 2 | Office hardware specification | [tickets/ticket2-office-spec](tickets/ticket2-office-spec) | |
 | 3 | Network fault diagnosis | [tickets/ticket3-network-fault](tickets/ticket3-network-fault) | |
 | 4 | HR staff report script | [tickets/ticket4-hr-csv](tickets/ticket4-hr-csv) | |
